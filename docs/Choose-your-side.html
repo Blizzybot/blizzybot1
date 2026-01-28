@@ -4,13 +4,36 @@
     <meta charset="UTF-8">
     <title>Choose your side</title>
     <style>
-        body {
-            background-color: rgb(230, 199, 173);
-        }
-    </style>
+      body {
+        background-color: rgb(185, 58, 58);
+        margin: 0;
+        font-family: Arial, sans-serif;
+            }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+            }
+      .image-row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+      .form-box {
+        background-color: rgb(185, 58, 58);
+        padding: 20px;
+        width: 350px;
+        color: white;
+        margin: 20px auto;
+        text-align: left;
+               }
+    </style> 
 </head>
 <body>
-<p>
+    <div class "container">
+<h1 style="text-align:center; font-size:82px;">CHOOSE YOUR SIDE</h1>
+ <p style="text-align:center;">
     <a href="index.html">Home</a>
     <a href="GI-Joe.html">GI Joe</a>
     <a href="Cobra.html">Cobra</a>
@@ -18,8 +41,8 @@
     <a href="Choose-your-side.html" target="">Choose your side</a>
     <a href="https://gijoe.fandom.com/wiki/Joepedia_-_The_G.I._Joe_Wiki" target="Joepedia">Yo JOE</a>
 </p>
-<h1>Which Alliance will you choose?</h1>
-<div style="display: flex; gap: 20px;">
+<h1 style="text-align:center;">Which alliance will you choose?</h1>
+<div class="image-row">
     <img src="wp2916183.jpg" alt="GI Joe Logo" width="300">
     <img src="wp9646176.jpg" alt="Cobra Logo" width="300">
 </div>
@@ -56,13 +79,10 @@
 
     <input type="submit" value="Submit" style="background-color: orange;">
     <input type="reset" value="Reset" style="background-color: lightgray;">
-  
-
-
-
 <p>
 Copyright &copy; 2026
 <a href="mailto:normant7386@student.ftcc.edu">Contact US</a>
 </p>
-  
+</div>  
 </body>
+
